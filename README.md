@@ -3,7 +3,7 @@
 
 ## SoccerLeague
 
-A soccer league Android app using SportMonks API. Built with MVVM architecture pattern, and Repository + Singleton design pattern. Written in Kotlin.
+A soccer league Android app using SportMonks API. Built with MVVM architecture pattern, and Repository + Singleton design pattern. Using Anko Layout for designing view, with no layout xml at all. Written in Kotlin.
 
 ### Library used:
   - [**Anko Commons**](https://github.com/Kotlin/anko) (layout, intent, dialog, and snackbar DSL)
