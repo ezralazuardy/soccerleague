@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Ezra Lazuardy on 10/30/19, 7:36 PM
+  ~ Copyright (c) 2019 . All rights reserved.
+  ~ Last modified 10/30/19, 5:05 PM
+  -->
+
+<full-backup-content>
+	<!-- Exclude specific shared preferences that contain GCM registration Id -->
+</full-backup-content>
