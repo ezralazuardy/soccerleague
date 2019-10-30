@@ -1,7 +1,7 @@
 /*
- * Created by Ezra Lazuardy on 10/30/19, 7:36 PM
+ * Created by Ezra Lazuardy on 10/30/19, 8:42 PM
  * Copyright (c) 2019 . All rights reserved.
- * Last modified 10/30/19, 6:18 PM
+ * Last modified 10/30/19, 7:59 PM
  */
 
 buildscript {
@@ -13,6 +13,7 @@ buildscript {
         androidx_arch = '2.1.0'
         androidx_constraint = '2.0.0-beta3'
         androidx_lifecycle = '2.2.0-rc01'
+        androidx_recyclerview = '1.1.0-rc01'
         anko = '0.10.8'
         glide = '4.10.0'
         koin = '2.0.1'

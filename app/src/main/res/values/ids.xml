@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Ezra Lazuardy on 10/30/19, 8:42 PM
+  ~ Copyright (c) 2019 . All rights reserved.
+  ~ Last modified 10/30/19, 8:35 PM
+  -->
+
+<resources>
+	<item name="list_soccer_card_image" type="id"/>
+	<item name="list_soccer_card_title" type="id"/>
+</resources>
