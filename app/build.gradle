@@ -1,7 +1,7 @@
 /*
- * Created by Ezra Lazuardy on 10/30/19, 8:42 PM
+ * Created by Ezra Lazuardy on 10/31/19, 11:55 AM
  * Copyright (c) 2019 . All rights reserved.
- * Last modified 10/30/19, 8:21 PM
+ * Last modified 10/31/19, 11:54 AM
  */
 
 apply plugin: 'com.android.application'
@@ -80,9 +80,9 @@ dependencies {
     implementation "org.jetbrains.anko:anko:$anko"
     implementation "org.jetbrains.anko:anko-commons:$anko"
     implementation "org.jetbrains.anko:anko-design:$anko"
-    implementation "org.jetbrains.anko:anko-sdk21:$anko"
+    implementation "org.jetbrains.anko:anko-sdk27:$anko"
     implementation "org.jetbrains.anko:anko-appcompat-v7:$anko"
-    implementation "org.jetbrains.anko:anko-sdk21-coroutines:$anko"
+    implementation "org.jetbrains.anko:anko-sdk27-coroutines:$anko"
     implementation "org.jetbrains.anko:anko-appcompat-v7-coroutines:$anko"
     implementation "org.jetbrains.anko:anko-recyclerview-v7:$anko"
     implementation "org.jetbrains.anko:anko-cardview-v7:$anko"
@@ -113,6 +113,9 @@ dependencies {
 
     // RecyclerView
     implementation "androidx.recyclerview:recyclerview:$androidx_recyclerview"
+
+    // RecyclerView Animator
+    implementation "jp.wasabeef:recyclerview-animators:$recyclerview_animator"
 
     testImplementation "junit:junit:$junit"
     androidTestImplementation "androidx.test:runner:$test_runner"

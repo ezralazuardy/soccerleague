@@ -1,12 +1,15 @@
 /*
- * Created by Ezra Lazuardy on 10/30/19, 7:36 PM
+ * Created by Ezra Lazuardy on 10/31/19, 11:55 AM
  * Copyright (c) 2019 . All rights reserved.
- * Last modified 10/30/19, 6:45 PM
+ * Last modified 10/31/19, 11:54 AM
  */
 
 package com.soccer.league.dao
 
-import com.soccer.league.model.detail.TeamDetail
+import com.soccer.league.model.detail.country.Country
+import com.soccer.league.model.detail.league.League
+import com.soccer.league.model.detail.season.Season
+import com.soccer.league.model.detail.venue.Venue
 import com.soccer.league.model.list.Teams
 import retrofit2.http.GET
 import retrofit2.http.Path
@@ -20,9 +23,27 @@ interface RemoteDao {
         @Query("api_token") apiToken: String
     ): Teams
 
-    @GET("teams/{teamId}")
-    suspend fun getTeamDetail(
-        @Path("teamId") teamId: Int,
+    @GET("countries/{countryId}")
+    suspend fun getCountry(
+        @Path("countryId") countryId: Int,
         @Query("api_token") apiToken: String
-    ): TeamDetail
+    ): Country
+
+    @GET("venues/{venueId}")
+    suspend fun getVenue(
+        @Path("venueId") venueId: Int,
+        @Query("api_token") apiToken: String
+    ): Venue
+
+    @GET("seasons/{seasonId}")
+    suspend fun getSeason(
+        @Path("seasonId") seasonId: Int,
+        @Query("api_token") apiToken: String
+    ): Season
+
+    @GET("leagues/{leagueId}")
+    suspend fun getLeague(
+        @Path("leagueId") leagueId: Int,
+        @Query("api_token") apiToken: String
+    ): League
 }

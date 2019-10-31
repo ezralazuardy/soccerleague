@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Created by Ezra Lazuardy on 10/30/19, 7:36 PM
+  ~ Created by Ezra Lazuardy on 10/31/19, 11:55 AM
   ~ Copyright (c) 2019 . All rights reserved.
-  ~ Last modified 10/30/19, 7:36 PM
+  ~ Last modified 10/31/19, 11:54 AM
   -->
 
 <resources>
-	<color name="colorPrimary">#008577</color>
-	<color name="colorPrimaryDark">#00574B</color>
-	<color name="colorAccent">#D81B60</color>
+	<color name="colorPrimary">#FF7043</color>
+	<color name="colorPrimaryDark">#FF7043</color>
+	<color name="colorAccent">#FF7043</color>
 </resources>

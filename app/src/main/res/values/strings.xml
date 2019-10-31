@@ -1,9 +1,12 @@
 <!--
-  ~ Created by Ezra Lazuardy on 10/30/19, 7:36 PM
+  ~ Created by Ezra Lazuardy on 10/31/19, 11:55 AM
   ~ Copyright (c) 2019 . All rights reserved.
-  ~ Last modified 10/30/19, 7:36 PM
+  ~ Last modified 10/31/19, 11:54 AM
   -->
 
 <resources>
 	<string name="app_name">Soccer League</string>
+	<string name="activity_detail_description">Tim %1$s dibentuk tahun %2$d dengan berkebangsaan %3$s. Saat ini bermain di musim %4$s liga %5$s.</string>
+	<string name="activity_detail_description_venue">Venue tim ini terletak di %1$s, %2$s dengan kapasitas %3$d orang.</string>
+	<string name="dialog_confirm_exit_app">Anda yakin ingin keluar dari aplikasi?</string>
 </resources>

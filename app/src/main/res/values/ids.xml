@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Created by Ezra Lazuardy on 10/30/19, 8:42 PM
+  ~ Created by Ezra Lazuardy on 10/31/19, 11:55 AM
   ~ Copyright (c) 2019 . All rights reserved.
-  ~ Last modified 10/30/19, 8:35 PM
+  ~ Last modified 10/31/19, 11:54 AM
   -->
 
 <resources>
-	<item name="list_soccer_card_image" type="id"/>
-	<item name="list_soccer_card_title" type="id"/>
+	<item name="list_activity_soccer_loading" type="id"/>
+	<item name="list_activity_soccer_item_card" type="id"/>
+	<item name="list_activity_soccer_item_card_image" type="id"/>
+	<item name="list_activity_soccer_item_card_title" type="id"/>
 </resources>

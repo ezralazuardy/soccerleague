@@ -1,7 +1,7 @@
 /*
- * Created by Ezra Lazuardy on 10/30/19, 8:42 PM
+ * Created by Ezra Lazuardy on 10/31/19, 11:55 AM
  * Copyright (c) 2019 . All rights reserved.
- * Last modified 10/30/19, 7:59 PM
+ * Last modified 10/31/19, 11:54 AM
  */
 
 buildscript {
@@ -22,6 +22,7 @@ buildscript {
         kotlin_serialization = '0.12.0'
         ktx = '1.2.0-beta01'
         retrofit = '2.6.2'
+        recyclerview_animator = '3.0.0'
 
         junit = '4.13-beta-3'
         test_runner = '1.3.0-alpha02'
