@@ -1,5 +1,4 @@
 [![License](https://img.shields.io/github/license/ezralazuardy/SoccerLeague)](https://github.com/ezralazuardy/SoccerLeague/blob/master/LICENSE) 
-[![Author](https://img.shields.io/badge/author-ezra%20lazuardy-blue.svg)](https://github.com/ezralazuardy) 
 
 ## SoccerLeague
 
